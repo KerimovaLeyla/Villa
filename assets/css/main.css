@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#productsList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#productsList button {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+#productsList a {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: crimson;
+  color: white;
+}
+#productsList i {
+  margin-top: 20px;
+  font-size: 25px;
+}
+#productsList .boxDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#productsList .boxDiv img {
+  width: 90%;
+  height: auto;
+}
+#productsList .boxDiv .title {
+  color: #004d40;
+  font-weight: 600;
+  font-style: italic;
+}
+#productsList .boxDiv .description {
+  color: gray;
+  font-weight: 500;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+.navbar {
+  width: 98%;
+  display: flex;
+}
+.navbar a {
+  color: black;
+}
+.navbar i {
+  color: black;
+}
+
+.fa-1x {
+  font-size: 1.5rem;
+}
+
+.navbar-toggler.toggler-example {
+  cursor: pointer;
+}
+
+.dark-blue-text {
+  color: #0A38F5;
+}
+
+.dark-pink-text {
+  color: #AC003A;
+}
+
+.dark-amber-text {
+  color: #ff6f00;
+}
+
+.dark-teal-text {
+  color: #004d40;
+}
+
+#welcomeToVilla {
+  width: 100%;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/hero_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  height: 700px;
+}
+#welcomeToVilla .container {
+  margin: 28px;
+  padding: 28px;
+}
+#welcomeToVilla h1 {
+  margin: 28px 20px 0px 20px;
+  padding: 0px 20px 20px 20px;
+  font-size: 70px;
+}
+#welcomeToVilla p {
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  font-size: 30px;
+}
+#welcomeToVilla button {
+  color: white;
+  cursor: pointer;
+  margin: 28px 5px;
+  padding: 20px 28px;
+  border-radius: 50px;
+}
+#welcomeToVilla #explore {
+  width: 280px;
+  background-color: #E61C5D;
+  border: none;
+}
+#welcomeToVilla #download {
+  width: 200px;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+#visit {
+  margin: 25px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#visit .container {
+  margin: 28px 0px;
+  padding: 28px 20px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#visit .container h3 {
+  font-size: 18px;
+  margin-top: 25px;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+}
+#visit .container .item {
+  padding: 20px 0px;
+  margin: 20px 0px;
+}
+#visit .container .item img {
+  width: 250px;
+}
+#visit .container .item p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-top: 20px;
+  font-size: 22px;
+}
+#visit .container .item #star {
+  padding-right: 20px;
+  color: #E61C5D;
+  letter-spacing: 0.25em;
+}
+#visit .container .item #reviews {
+  padding-left: 20px;
+  font-weight: 100;
+}
+
+#gorgeousPlace {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/round.png");
+}
+#gorgeousPlace .container {
+  width: 80%;
+}
+#gorgeousPlace .container h1 {
+  margin-top: 25px;
+  font-size: 80px;
+}
+#gorgeousPlace .container p {
+  padding: 25px 0px;
+  font-size: 27px;
+  font-weight: 100;
+}
+#gorgeousPlace .container .corusel {
+  margin: 25px 0px;
+  padding: 28px 0px;
+}
+
+#recentBlog {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/round.png");
+  flex-direction: column;
+}
+#recentBlog .container {
+  width: 80%;
+  flex-direction: column;
+}
+#recentBlog .container #add {
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0px;
+  font-size: 23px;
+  background-color: black;
+  color: white;
+  border: 10px;
+}
+#recentBlog .container #add:hover {
+  background-color: #AC003A;
+}
+#recentBlog .container h1 {
+  margin-top: 25px;
+  font-size: 50px;
+}
+#recentBlog .container p {
+  padding: 25px 0px;
+  font-size: 27px;
+  font-weight: 100;
+}
+
+#productsList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#productsList button {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+#productsList a {
+  padding: 10px 15px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: crimson;
+  color: black;
+}
+#productsList a:hover {
+  background-color: black;
+  color: white;
+}
+#productsList i {
+  margin-top: 20px;
+  font-size: 25px;
+}
+#productsList .boxDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#productsList .boxDiv img {
+  width: 90%;
+  height: auto;
+}
+#productsList .boxDiv .title {
+  color: #004d40;
+  font-weight: 600;
+  font-style: italic;
+}
+#productsList .boxDiv .description {
+  color: gray;
+  font-weight: 500;
+  font-style: italic;
+}
